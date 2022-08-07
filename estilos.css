@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none
+}
+
+/* PESTAÑA INDEX */
+.body-index{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.header{
+
+    padding: 50px;
+    border: 2px black;
+    
+}
+
+.div-index{
+    padding: 50px;
+}
+
+.titulo-index{
+    text-align: center;
+    font-size: 50px; 
+    font-family: 'Roboto', sans-serif;
+    color: #cba5a5;
+    text-shadow: 2px 2px 2px #cba5a5;
+}
+
+.listado{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    color: #cba5a5;
+    flex-direction: row;
+    justify-content: center;
+    height: 20px;
+    list-style-type: none
+}
+
+.listados2{
+    text-align: center;
+    width: 20px;
+    margin: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.listados2:hover{
+    color: #cba5a5;
+    text-decoration: underline;
+}
+
+
+.titulo3-index{
+    font-size: 30px;
+}
+
+.subtitulo-index{
+    font-size: 40px;
+}
+
+.footer-index{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-instagram{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    
+}
+
+/* PESTAÑA CONTACTO */
+
+body{
+    background-color: #f5f5f5;
+    
+}
+.contacto-titulo {
+    margin-left: 38%;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: coral;
+    border-bottom: 20px solid #f5f5f5;
+    font-size: 2rem;
+}
+.contenedor{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 30%;
+    border-color: black;
+    background-color: rgb(255, 179, 179);
+    margin-left: 30%;
+    border-radius: 10px;
+
+}
+
+.titulo-contacto{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+         margin-left: 40%;
+         border-radius: 10px;
+         margin-top: 30px;
+}
+
+.button{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #000000;
+    color: white;
+    border: 1px solid #909090;
+    font-weight: 700;
+}
+
+/* PESTAÑA MARGARAY */
+
+.body-margaray{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.imagen-margaray{
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* PESTAÑA PANDA ROJO */
+
+.body-pandarojo{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.imagen-pandarojo{
+    width: 600px;
+    height: 600px;
+}
+
+/* PESTAÑA SURICATAS */
+
+.body-suricata{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.imagen-suricata{
+    width: 600px;
+    height: 600px;
+}
+
+/* Fotos y Caracteristicas */
+
+.body-Fotos-caracteriscticas{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.imagenes{
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+
+}
+
+.imagenes-elefante{
+    margin: auto;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.imagenes2{
+    background-position: center;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagenes:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/* Ubicacion */
+
+.body-ubicacion{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* PESTAÑA TIEMPO DE VIDA */
+
+.body-tiempo{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
